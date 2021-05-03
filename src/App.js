@@ -1,10 +1,13 @@
 import React from "react";
-import Test from "./components/Test"
+import axios from "axios";
+import Search from "./components/Search";
 
 function App() {
   return (
-    <div className="App">
-      <Test />
+    <div className="ui grid container center aligned">
+      <div className="eight wide column">
+        <Search />
+      </div>
     </div>
   );
 }
